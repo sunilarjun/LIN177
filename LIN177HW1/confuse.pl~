@@ -1,0 +1,4 @@
+confuse(X, Y) :-
+    run(Z, X),
+    run(Z, Y),
+    X \= Y.
